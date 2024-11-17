@@ -13,6 +13,12 @@
 
 ## Changes
 
+### 0.0.4 (November 17, 2024)
+
+* [FEATURE] Added a Hero Section
+* [UI] Added a Gray 950 to Tailwind Color Theme
+* [UI] Minor adjustments to navbar
+
 ### 0.0.3 (November 16, 2024)
 
 * [FEATURE] Added a Nav Bar

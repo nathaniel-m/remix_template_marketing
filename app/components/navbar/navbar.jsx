@@ -77,24 +77,24 @@ export default function Navbar() {
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center justify-between">
                     <a className="mr-4" href="/" aria-label="">
                         <img
-                            className="hidden dark:flex w-24"
+                            className="hidden dark:flex h-10"
                             src={"/apple-download-dk.svg"}
                             alt="App Store Download"
                         />
                         <img
-                            className="flex dark:hidden w-24"
+                            className="flex dark:hidden h-10"
                             src={"/apple-download-lt.svg"}
                             alt="App Store Download"
                         />
                     </a>
                     <a className="" href="/" aria-label="">
                         <img
-                            className="hidden dark:flex w-28"
+                            className="hidden dark:flex h-10"
                             src={"/google-download-dk.svg"}
                             alt="App Store Download"
                         />
                         <img
-                            className="flex dark:hidden w-28"
+                            className="flex dark:hidden h-10"
                             src={"/google-download-lt.svg"}
                             alt="App Store Download"
                         />
