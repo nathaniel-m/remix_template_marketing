@@ -1,8 +1,10 @@
 import type { MetaFunction } from "@remix-run/node";
+import Cta from "../components/cta.jsx"
 import Hero from "../components/hero/hero.jsx"
 import HeroAlternate from "../components/hero/heroAlternate.jsx"
 import ProductImage from "../components/product-image.jsx"
 import Navbar from "../components/navbar/navbar.jsx";
+
 
 export const meta: MetaFunction = () => {
   return [
@@ -25,6 +27,11 @@ export default function Index() {
         ImageSrcDk={"/hero-dk.png"}
         ImageSrcLt={"/hero-lt.png"}
         ImageAlt={"screen shot"}
+      />
+      <Cta
+        ctabutton_url={""}
+        ctaH2={"Are you ready to take control of your SEO?"}
+        ctaH2_bold={"Download Rerank today."}
       />
     </>
   );

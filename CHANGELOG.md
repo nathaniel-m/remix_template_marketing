@@ -13,6 +13,10 @@
 
 ## Changes
 
+### 0.0.6 (November 17, 2024)
+
+* [FEATURE] Added a CTA Section
+
 ### 0.0.5 (November 17, 2024)
 
 * [FEATURE] Added a Product Image Section
