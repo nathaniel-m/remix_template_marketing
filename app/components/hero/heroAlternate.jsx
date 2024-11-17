@@ -1,13 +1,5 @@
 
-
-
-const herobutton_url = ""
-const heroH1 = "Use The AI Taking Over The world"
-const heroH1_bold = ""
-const herotext_description = "Ominous has already installed itself on half the devices in the world. Now you can use that same AI to write songs about your dog."
-
-
-export default function HeroAlternate() {
+export default function HeroAlternate({ heroH1, heroH1_bold, herotext_description, herobutton_url }) {
     return (
         <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:mt-36">

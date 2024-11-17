@@ -1,12 +1,5 @@
 
-
-const herobutton_url = ""
-const heroH1 = "Use The AI Taking Over The world"
-const heroH1_bold = ""
-const herotext_description = "Ominous has already installed itself on half the devices in the world. Now you can use that same AI to write songs about your dog."
-
-
-export default function Hero() {
+export default function Hero({ heroH1, heroH1_bold, herotext_description, herobutton_url }) {
     return (
         <div className="mt-14 md:mt-36">
             <div className=" ">

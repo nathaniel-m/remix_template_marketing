@@ -13,6 +13,11 @@
 
 ## Changes
 
+### 0.0.5 (November 17, 2024)
+
+* [FEATURE] Added a Product Image Section
+* [CHANGE] Moved Hero settings from the component 
+
 ### 0.0.4 (November 17, 2024)
 
 * [FEATURE] Added a Hero Section
