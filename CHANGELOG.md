@@ -13,6 +13,9 @@
 
 ## Changes
 
+### 0.0.9 (November 18, 2024)
+
+* [FEATURE] Added a Footer Section
 
 ### 0.0.8 (November 17, 2024)
 

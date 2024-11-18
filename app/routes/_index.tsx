@@ -18,6 +18,7 @@ import HeroAlternate from "../components/hero/heroAlternate.jsx"
 import Pricing from "../components/pricing.jsx"
 import ProductImage from "../components/product-image.jsx"
 import Navbar from "../components/navbar/navbar.jsx";
+import Footer from "../components/footer.jsx"
 
 export const meta: MetaFunction = () => {
   return [
@@ -155,8 +156,8 @@ export default function Index() {
     <>
       <Navbar />
       <Hero
-        heroH1={"Use The AI Taking Over The world"}
-        heroH1_bold={""}
+        heroH1={"Use The Artificial Intelligence"}
+        heroH1_bold={"Taking Over The world"}
         herotext_description={"Ominous has already installed itself on half the devices in the world. Now you can use that same AI to write songs about your dog."}
         herobutton_url={""}
       />
@@ -179,6 +180,7 @@ export default function Index() {
         pricingHeading={"Merchant-centric pricing plans tailored to each stage of your SEO journey & needs"}
         pricingDescription={"Find the plan that best meets your specific business needs. All paid plans come with a 7-day free trial."}
       />
+      <Footer />
     </>
   );
 }
