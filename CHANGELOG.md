@@ -13,6 +13,10 @@
 
 ## Changes
 
+### 0.0.10 (November 18, 2024)
+
+* [FEATURE] Added a Privacy Policy Page
+
 ### 0.0.9 (November 18, 2024)
 
 * [FEATURE] Added a Footer Section
