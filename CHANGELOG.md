@@ -13,6 +13,11 @@
 
 ## Changes
 
+
+### 0.0.8 (November 17, 2024)
+
+* [FEATURE] Added a Pricing Section
+
 ### 0.0.7 (November 17, 2024)
 
 * [FEATURE] Added a Features Section

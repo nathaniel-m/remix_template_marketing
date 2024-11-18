@@ -1,5 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
-import { 
+import {
   AdjustmentsVerticalIcon,
   PhotoIcon,
   TagIcon,
@@ -9,12 +9,13 @@ import {
   CodeBracketIcon,
   DocumentDuplicateIcon,
   BoltIcon,
-   } from "@heroicons/react/24/outline";
+} from "@heroicons/react/24/outline";
 
 import Cta from "../components/cta.jsx"
 import Features from "../components/features.jsx"
 import Hero from "../components/hero/hero.jsx"
 import HeroAlternate from "../components/hero/heroAlternate.jsx"
+import Pricing from "../components/pricing.jsx"
 import ProductImage from "../components/product-image.jsx"
 import Navbar from "../components/navbar/navbar.jsx";
 
@@ -85,6 +86,71 @@ export default function Index() {
     },
   ];
 
+  const plansObj = [
+    {
+      name: "SEO Beginner",
+      price: "",
+      description:
+        "",
+      features: [
+        "250 alt tag updates",
+        "Limited email support",
+      ]
+    },
+    {
+      name: "SEO Pro",
+      price: "$4.99",
+      description:
+        "For stores with up to 2,000 products & up to 50 monthly orders",
+      features: [
+        "Autopilot",
+        "Speed Optimizer",
+        "Meta Tags",
+        "Image SEO Optimizer",
+        "Duplicate Content",
+        "Broken Links",
+        "JSON-LD",
+        "Reports",
+        "Live chat support (on working days)",
+      ]
+    },
+    {
+      name: "SEO Expert",
+      price: "$14.99",
+      description:
+        "For stores with more than 2,000 products or 50+ monthly orders",
+      features: [
+        "Autopilot",
+        "Speed Optimizer",
+        "Meta Tags",
+        "Image SEO Optimizer",
+        "Duplicate Content",
+        "Broken Links",
+        "JSON-LD",
+        "Reports",
+        "Live chat support (on working days)",
+      ]
+    },
+    {
+      name: "SEO Supreme",
+      price: "$24.99",
+      description:
+        "",
+      features: [
+        "Autopilot",
+        "AI-assisted content creation (30k tokens available)",
+        "Speed Optimizer",
+        "Meta Tags",
+        "Image SEO Optimizer",
+        "Duplicate Content",
+        "Broken Links",
+        "JSON-LD",
+        "Reports",
+        "Live chat support (on working days)",
+      ]
+    },
+  ];
+
   return (
     <>
       <Navbar />
@@ -106,7 +172,12 @@ export default function Index() {
       />
       <Features
         featuresObj={featuresObj}
-        featuresHeading = {"All the features you need to manage all of your customers questions"}
+        featuresHeading={"All the features you need to manage all of your customers questions"}
+      />
+      <Pricing
+        plansObj={plansObj}
+        pricingHeading={"Merchant-centric pricing plans tailored to each stage of your SEO journey & needs"}
+        pricingDescription={"Find the plan that best meets your specific business needs. All paid plans come with a 7-day free trial."}
       />
     </>
   );
